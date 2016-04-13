@@ -1,6 +1,6 @@
 {
   "name": "ts-framework",
-  "version": "0.2.6",
+  "version": "0.3.0",
   "description": "TSFramework",
   "author": "Jhon Mike <developer@jhonmike.com.br>",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "app",
     "api"
   ],
-  "main": "./build/TSFramework.js",
+  "main": "./src/ts-framework-build/TS-Framework.js",
   "scripts": {
     "prepublish": "npm prune",
     "start": "grunt",
