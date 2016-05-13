@@ -23,10 +23,8 @@
   "scripts": {
     "prepublish": "npm prune",
     "start": "tsc -w",
-    
     "pretest": "tsc",
     "test": "node src/ts-framework-build/ts-framework-tests/app.js",
-    
     "build": "tsc",
     "preci": "node src/ts-framework-build/ts-framework-tests/app.js & echo $! > ci.pid & sleep 5",
     "ci": "mocha src/ts-framework-build/ts-framework-tests/tests",
@@ -48,6 +46,7 @@
     "express": "4.13.4",
     "express-ejs-layouts": "~2.1.0",
     "get-parameter-names": "^0.3.0",
+    "huject": "^1.3.4",
     "lodash": "~4.10.0",
     "method-override": "~2.3.5",
     "morgan": "~1.7.0",
